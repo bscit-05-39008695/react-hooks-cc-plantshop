@@ -1,12 +1,12 @@
-# Phase 2 Code Challenge: Plantsy
+# react-hooks-cc-plantshop
 
-## Demo
+# Date: 2024/11/04
 
-Use this gif as an example of how the app should work.
 
-![Demo GIF](https://curriculum-content.s3.amazonaws.com/phase-2/react-hooks-mock-code-challenge-plantshop/plantsy_demo.gif)
+# By ARON KIPYEGON MUTAI
 
-## Instructions
+
+## Instructions/describtion
 
 Welcome to Plantsy! You've been tasked with building out some features for the
 admin side of a plant store. The designers have put together the components and
@@ -38,59 +38,6 @@ As a user:
 3. I can mark a plant as "sold out".
 4. I can search for plants by their name and see a filtered list of plants.
 
-### Endpoints for Core Deliverables
-
-#### GET /plants
-
-Example Response:
-
-```json
-[
-  {
-    "id": 1,
-    "name": "Aloe",
-    "image": "./images/aloe.jpg",
-    "price": 15.99
-  },
-  {
-    "id": 2,
-    "name": "ZZ Plant",
-    "image": "./images/zz-plant.jpg",
-    "price": 25.98
-  }
-]
-```
-
-#### POST `/plants`
-
-Required Headers:
-
-```js
-{
-  "Content-Type": "application/json"
-}
-```
-
-Request Object:
-
-```json
-{
-  "name": "string",
-  "image": "string",
-  "price": number
-}
-```
-
-Example Response:
-
-```json
-{
-  "id": 1,
-  "name": "Aloe",
-  "image": "./images/aloe.jpg",
-  "price": 15.99
-}
-```
 
 ## Advanced Deliverables
 
@@ -148,3 +95,10 @@ Example Response:
 ```json
 {}
 ```
+# TECHNOLOGIES USED
+
+react js css
+
+# Support and Contact Details
+
+https://github.com/bscit-05-39008695
